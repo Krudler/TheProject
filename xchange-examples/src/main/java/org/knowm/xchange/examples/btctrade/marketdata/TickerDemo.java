@@ -30,7 +30,7 @@ public class TickerDemo {
     MarketDataService marketDataService = exchange.getMarketDataService();
 
     // Get the latest ticker data showing BTC to CNY.
-    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_CNY);
+    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_USD);
     System.out.println(ticker);
   }
 

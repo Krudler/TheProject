@@ -33,7 +33,7 @@ public class BTCChinaTickerDemo {
   public static void generic() throws IOException {
 
     // Get the latest ticker data showing BTC to CNY
-    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_LTC);
+    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_USD);
 
     System.out.println("Date: " + ticker.getTimestamp());
 

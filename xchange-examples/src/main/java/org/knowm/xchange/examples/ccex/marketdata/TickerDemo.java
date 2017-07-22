@@ -24,7 +24,7 @@ public class TickerDemo {
     System.out.println("fetching data...");
 
     // Get the current orderbook
-    Ticker ticker = marketDataService.getTicker(CurrencyPair.XAUR_BTC);
+    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_USD);
 
     System.out.println("received data.");
 

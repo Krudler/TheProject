@@ -32,7 +32,7 @@ public class TickerDemo {
 
   private static void generic(MarketDataService marketDataService) throws IOException {
 
-    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_BRL);
+    Ticker ticker = marketDataService.getTicker(CurrencyPair.BTC_USD);
 
     System.out.println(ticker.toString());
   }
